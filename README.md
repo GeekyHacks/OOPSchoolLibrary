@@ -71,7 +71,7 @@ To run and modify this project you need:
 
 - GitHub account
 - VSCode (or another code editor)
-- Node.js and npm installed
+- gemfile installed
 - basic Knowledge of Git Commands
 - basic Knowledge of the Terminal Commands
 
@@ -93,10 +93,9 @@ Example commands:
 
 ### Install
 
-This project was bootstrapped with Vite and React.
 
 To install all dependencies run the following command:
-`npm install`
+`gem install`
 
 suggusted VSC extentions:
 
