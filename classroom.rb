@@ -1,6 +1,4 @@
 class Classroom
-  attr_accessor :label
-
   def initialize(label)
     @label = label
     @students = []
@@ -10,4 +8,5 @@ class Classroom
     @students.push(student)
     student.classroom = self
   end
+  attr_accessor :label
 end
