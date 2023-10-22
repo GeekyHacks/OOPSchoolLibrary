@@ -37,4 +37,4 @@ def mainSchool
   app.start
 end
 
-mainSchool
+mainSchool()
