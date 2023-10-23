@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby 
+#!/usr/bin/env ruby
 
 require_relative 'app'
 
@@ -32,9 +32,9 @@ def exit_program
   exit!
 end
 
-def mainSchool
+def main_school
   app = App.new
   app.start
 end
 
-mainSchool()
+main_school
