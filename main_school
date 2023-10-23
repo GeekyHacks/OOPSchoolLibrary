@@ -36,5 +36,4 @@ def main_school
   app = App.new
   app.start
 end
-
 main_school
