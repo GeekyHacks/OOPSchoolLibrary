@@ -7,7 +7,7 @@
   <br/>
 
   <h3><b>OOPSchoolLibrary</b></h3>
-  <p>This repo is about creating a a school library built with Ruby. /p>
+  <p>This repo is about creating a school library built with Ruby, in which you can add students or teachers and books. You can also record who and when a book was rented for </p>
 
 </div>
 
