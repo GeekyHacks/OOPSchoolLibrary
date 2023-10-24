@@ -125,6 +125,11 @@ suggusted VSC extentions:
 - Twitter: [Geekydart](https://twitter.com/GeekyDart)
 - LinkedIn: [Abdullah Nasser](https://www.linkedin.com/in/abdullah-nasser-711625268/)
 
+👤 Ishimwe Joseph
+
+GitHub: @ishimwepati
+LinkedIn: @Ishimwe Jospeh
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -151,6 +156,7 @@ I would like to thank...
 - Microverse Review Team
 - Microverse Community in Slack
 - my Mentor @Strangeal
+- My coding partner @ishimwepati
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
