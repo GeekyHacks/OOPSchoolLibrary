@@ -107,7 +107,8 @@ Example commands:
 
 
 To install all dependencies run the following command:
-`gem install`
+- `gem install` will install all the gem files included in this repo
+- to run the program type into the terminal `ruby main_school` 
 
 suggusted VSC extentions:
 
