@@ -59,9 +59,10 @@ In this project I will be making a calculator app using react
 ### 🔭 Future Features <a name="future-features">
 
 </a>
- - add basic UI
- - preserve data
- - add unit tests
+
+- add basic UI
+- preserve data
+- add unit tests
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
