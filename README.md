@@ -19,6 +19,7 @@
   - [🛠 Built With Ruby](#-built-with-ruby)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+    - [Future Features ](#Future-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -49,11 +50,21 @@ In this project I will be making a calculator app using react
 
 </a>
 
-- [RubyGems](https://guides.rubygems.org/rubygems-basics/)
-- [rubocop](https://docs.rubocop.org/rubocop/installation.html)
-- [linters for Ruby](https://github.com/microverseinc/linters-config/tree/master/ruby)
+- Add new students or teachers
+- Add new books
+- Save records of who borrowed a given book and when it was borrowed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### 🔭 Future Features <a name="future-features">
+
+</a>
+ - add basic UI
+ - preserve data
+ - add unit tests
+ 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
