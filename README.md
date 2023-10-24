@@ -75,7 +75,7 @@ To get a local copy up and running, follow these steps:
 
 - Open your Terminal in your VSCode.
 - Navigate to the desired directory[folder] to which you want to clone the repository to
-- [Copy & Paste] git clone you find in the code button https://github.com/GeekyHacks/OOPSchoolLibrary.git
+- git clone you find in the code button https://github.com/GeekyHacks/OOPSchoolLibrary.git
 
 ### Prerequisites
 
@@ -126,10 +126,10 @@ suggusted VSC extentions:
 - Twitter: [Geekydart](https://twitter.com/GeekyDart)
 - LinkedIn: [Abdullah Nasser](https://www.linkedin.com/in/abdullah-nasser-711625268/)
 
-👤 Ishimwe Joseph
+👤 **Ishimwe Joseph**
 
-GitHub: @ishimwepati
-LinkedIn: @Ishimwe Jospeh
+- GitHub: @ishimwepati
+- LinkedIn: @Ishimwe Jospeh
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
