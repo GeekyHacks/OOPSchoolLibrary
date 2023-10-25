@@ -6,7 +6,7 @@ require_relative 'teacher'
 require_relative 'list'
 
 module Creator
-include Lister
+  include Lister
   def start
     loop { choose_option }
   end
@@ -82,4 +82,3 @@ include Lister
     end
   end
 end
-
