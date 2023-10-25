@@ -3,9 +3,6 @@ require_relative 'person'
 require_relative 'rental'
 
 module Lister
-  def start
-    loop { choose_option }
-  end
 
   def list_books
     if @books.empty?
