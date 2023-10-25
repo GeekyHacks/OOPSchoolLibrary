@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require './rental'
 class Book
   attr_accessor :title, :author, :rentals
