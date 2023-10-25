@@ -7,7 +7,6 @@ require_relative 'list'
 
 module Creator
   include Lister
-
   def create_person
     print 'Would you like to create a student (1) or a teacher (2)? Select a number: '
     choice = gets.chomp

@@ -3,7 +3,6 @@ require_relative 'person'
 require_relative 'rental'
 
 module Lister
-
   def list_books
     if @books.empty?
       puts 'No books available. Please add some books and try again.'
