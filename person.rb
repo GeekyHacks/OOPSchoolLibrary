@@ -1,6 +1,4 @@
 require './nameable'
-require './trimmerdecorator'
-require './capitalizedecorator'
 require './rental'
 require './book'
 

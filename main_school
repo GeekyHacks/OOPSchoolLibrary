@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby 
-
 require_relative 'app'
 
 puts 'Welcome to our school library'
@@ -32,9 +30,9 @@ def exit_program
   exit!
 end
 
-def mainSchool
+def main_school
   app = App.new
   app.start
 end
 
-mainSchool
+main_school

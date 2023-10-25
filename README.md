@@ -7,7 +7,7 @@
   <br/>
 
   <h3><b>OOPSchoolLibrary</b></h3>
-  <p>This repo is about creating a a school library built with Ruby. /p>
+  <p>This repo is about creating a school library built with Ruby, in which you can add students or teachers and books. You can also record who and when a book was rented for </p>
 
 </div>
 
@@ -19,6 +19,7 @@
   - [🛠 Built With Ruby](#-built-with-ruby)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+    - [Future Features ](#Future-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -49,11 +50,22 @@ In this project I will be making a calculator app using react
 
 </a>
 
-- [RubyGems](https://guides.rubygems.org/rubygems-basics/)
-- [rubocop](https://docs.rubocop.org/rubocop/installation.html)
-- [linters for Ruby](https://github.com/microverseinc/linters-config/tree/master/ruby)
+- Add new students or teachers
+- Add new books
+- Save records of who borrowed a given book and when it was borrowed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### 🔭 Future Features <a name="future-features">
+
+</a>
+
+- add basic UI
+- preserve data
+- add unit tests
+ 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,7 +75,7 @@ To get a local copy up and running, follow these steps:
 
 - Open your Terminal in your VSCode.
 - Navigate to the desired directory[folder] to which you want to clone the repository to
-- [Copy & Paste] git clone you find in the code button https://github.com/GeekyHacks/OOPSchoolLibrary.git
+- git clone you find in the code button https://github.com/GeekyHacks/OOPSchoolLibrary.git
 
 ### Prerequisites
 
@@ -95,7 +107,8 @@ Example commands:
 
 
 To install all dependencies run the following command:
-`gem install`
+- `gem install` will install all the gem files included in this repo
+- to run the program type into the terminal `ruby main_school` 
 
 suggusted VSC extentions:
 
@@ -112,6 +125,11 @@ suggusted VSC extentions:
 - GitHub: [Geekyhacks](https://github.com/GeekyHacks)
 - Twitter: [Geekydart](https://twitter.com/GeekyDart)
 - LinkedIn: [Abdullah Nasser](https://www.linkedin.com/in/abdullah-nasser-711625268/)
+
+👤 **Ishimwe Joseph**
+
+- GitHub: @ishimwepati
+- LinkedIn: @Ishimwe Jospeh
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,6 +157,7 @@ I would like to thank...
 - Microverse Review Team
 - Microverse Community in Slack
 - my Mentor @Strangeal
+- My coding partner @ishimwepati
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
