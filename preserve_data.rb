@@ -2,7 +2,6 @@ require 'json'
 
 # mixin
 module PreserveData
-
   @@serializer = JSON
 
   def serialize
