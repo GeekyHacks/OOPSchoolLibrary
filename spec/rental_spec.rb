@@ -1,13 +1,8 @@
 require './rental'
 
 describe Rental do
-  let(:book) { double('Book') }
-  let(:person) { double('Person') }
-
-  before do
-    allow(book).to receive(:rentals).and_return([]) # Configure book double to respond to rentals method
-    allow(person).to receive(:rentals).and_return([]) # Configure person double to respond to rentals method
-  end
+  let(:book) { double('Book', rentals: []) }
+  let(:person) { double('Person', rentals: []) }
 
   subject(:rental) { described_class.new('2023-10-26', book, person) }
 
