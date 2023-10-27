@@ -6,7 +6,7 @@
 
   <br/>
 
-  <h3><b>OOPSchoolLibrary</b></h3>
+  <h3><b>OOP School Library</b></h3>
   <p>This repo is about creating a school library built with Ruby, in which you can add students or teachers and books. You can also record who and when a book was rented for </p>
 
 </div>
@@ -122,14 +122,15 @@ suggusted VSC extentions:
 
 👤 **GeekyHacks**
 
+- GitHub: [Ishimwe Joseph](https://github.com/Ishimwepati)
+- Twitter: [Patient ](https://twitter.com/patientmusafir1)
+- LinkedIn: [Abdullah Nasser](https://www.linkedin.com/in/ishimwe-joseph-patient-0537b4155/)
+
+👤 **GeekyHacks**
+
 - GitHub: [Geekyhacks](https://github.com/GeekyHacks)
 - Twitter: [Geekydart](https://twitter.com/GeekyDart)
 - LinkedIn: [Abdullah Nasser](https://www.linkedin.com/in/abdullah-nasser-711625268/)
-
-👤 **Ishimwe Joseph**
-
-- GitHub: @ishimwepati
-- LinkedIn: @Ishimwe Jospeh
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
