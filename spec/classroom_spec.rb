@@ -12,7 +12,7 @@ describe Classroom do
 
   it 'can add students' do
     student1 = Student.new(classroom, 18, 'Alice')
-    student2 = Student.new(classroom, 19, 'Bob')   
+    student2 = Student.new(classroom, 19, 'Bob')
 
     classroom.add_student(student1)
     classroom.add_student(student2)
