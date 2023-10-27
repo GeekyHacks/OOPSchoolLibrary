@@ -8,5 +8,7 @@ class Classroom
     @students.push(student)
     student.classroom = self
   end
+
   attr_accessor :label
+  attr_reader :students
 end
