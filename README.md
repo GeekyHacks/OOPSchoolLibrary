@@ -55,6 +55,7 @@ In this project I will be making a calculator app using react
 - Save records of who borrowed a given book and when it was borrowed
 - Store the data interred by the user when exit
 - list the data stored whenever list option is selected
+- Rspec test cases for person, student, teacher, book, and rental files
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
