@@ -11,8 +11,8 @@ describe Classroom do
   end
 
   it 'can add students' do
-    student1 = Student.new(classroom, 18, 'Alice') # Provide age and name
-    student2 = Student.new(classroom, 19, 'Bob')   # Provide age and name
+    student1 = Student.new(classroom, 18, 'Alice')
+    student2 = Student.new(classroom, 19, 'Bob')   
 
     classroom.add_student(student1)
     classroom.add_student(student2)
