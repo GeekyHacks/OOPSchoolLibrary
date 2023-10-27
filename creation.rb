@@ -4,9 +4,9 @@ require_relative 'rental'
 require_relative 'student'
 require_relative 'teacher'
 require_relative 'list'
-
 module Creator
   include Lister
+
   def create_person
     print 'Would you like to create a student (1) or a teacher (2)? Select a number: '
     choice = gets.chomp
@@ -28,7 +28,7 @@ module Creator
   def create_student(name, age)
     print 'Parent permission? [Y/N]: '
     permission_option = gets.chomp.downcase
-    student = Student.new(age, name, parent_permission: permission_option == 'y')
+    student = Student.new(Classroom.new('Unknown'), age, name, parent_permission: permission_option == 'y')
     @people << student
     puts "Student created successfully. ID is #{student.id}"
   end
