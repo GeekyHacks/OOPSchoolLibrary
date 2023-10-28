@@ -1,5 +1,4 @@
 require './person'
-
 describe Person do
   before(:each) do
     @person = Person.new(23, 'name', parent_permission: true)
@@ -15,7 +14,12 @@ describe Person do
       expect(person.name).to eql('name')
     end
   end
-
+  describe '#intialize' do
+    it 'should have a default name if name is not provided' do
+      person = Person.new(23, nil, parent_permission: true)
+      expect(person.name).to eql('name')
+    end
+  end
   describe '#id' do
     it 'should have a random id within the range of 1 to 1000' do
       expect(@person.id).to be >= 1
