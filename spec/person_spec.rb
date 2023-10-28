@@ -17,15 +17,20 @@ describe Person do
       expect(@person.instance_variable_get(:@id)).not_to be_nil
     end
   end
-  describe '#@id' do
-    it 'should return a random id for the person object' do
-      @id = Random.rand(1..1000)
-      expect(@person.instance_variable_get(:@id)).not_to be_nil
+
+  describe '#of_age?' do
+    it 'should return true if age is greater or equal to 18' do
+      expect(@person.age).to be >= 18
     end
-    describe '#of_age?' do
-      it 'should return true if age is greater or equal to 18' do
-        expect(@person.age).to be >= 18
-      end
+  end
+  describe '#can_use_services?' do
+    it 'should return true if parent_permission or of_age? is true' do
+      expect(@person.can_use_services?).to be true
+    end
+
+    it 'should return false if parent_permission and of_age? are false' do
+      @person = Person.new(16, 'name', parent_permission: false)
+      expect(@person.can_use_services?).to be false
     end
   end
   describe '#add_rental' do
