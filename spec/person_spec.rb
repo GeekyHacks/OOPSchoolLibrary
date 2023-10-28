@@ -33,6 +33,12 @@ describe Person do
       expect(@person.can_use_services?).to be false
     end
   end
+  describe '#correct_name' do
+    it 'should return the correct name when correct_name method is called' do
+      expect(@person.correct_name).to eql('name')
+    end
+  end
+
   describe '#add_rental' do
     after(:each) do
       @rentals = [@rental]
