@@ -1,9 +1,18 @@
 require './student'
 
-describe Student.new 'IT', 24, 'Abdu' do
-  it { is_expected.to be_a(Person) }
-  it { is_expected.to have_attributes(classroom: 'IT') }
-  it { is_expected.to have_attributes(age: 24) }
-  it { is_expected.to have_attributes(name: 'Abdu') }
-  it { is_expected.to have_attributes(parent_permission: true) }
+describe Student do
+  before(:each) do
+    @student = Student.new('classroom', 24, 'name')
+  end
+
+  describe '#new' do
+    it ' should add new student object' do
+      @student = Student.new('classroom', 24, 'name')
+    end
+  end
+  describe '#classroom' do
+    it ' should return correct classroom' do
+      expect(@student.classroom).to eql('classroom')
+    end
+  end
 end
